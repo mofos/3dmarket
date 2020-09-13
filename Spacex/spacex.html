@@ -19,11 +19,11 @@
       <div class="main_image">
         <model-viewer class='a' src="scene.gltf"
           
-        id="paused-change-demo" camera-controls autoplay animation-name="idle1" ar shadow-intensity="1"
+        id="paused-change-demo" camera-controls autoplay animation-name="Idle1" ar shadow-intensity="1"
            autoplay ar shadow-intensity="1" 
            ar ar-modes="scene-viewer webxr" ar-scale="5%"
           stage-light-intensity="3" environment-intensity="2"
-          camera-orbit="0deg 90deg 80m"
+          camera-orbit="10deg 90deg 10000m"
           
           
                       alt="A 3D model of an astronaut">
@@ -34,9 +34,9 @@
             const modelViewer = document.querySelector('#paused-change-demo');
         
             self.setInterval(() => {
-              modelViewer.animationName = modelViewer.animationName === 'Running' ?
-                'idle2' : 'idle1';
-            }, 4000.0);
+              modelViewer.animationName = modelViewer.animationName === 'Idle1' ?
+                'Idle2' : 'Idle1';
+            }, 15000.0);
           })();
           </script>
       </div>
