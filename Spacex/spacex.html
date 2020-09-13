@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>product</title>
+  <link rel="stylesheet" href="/book/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<body>
+<div id="wrap">
+  <div id="product_layout_3">
+    <div class="product_image">
+      <div class="main_image">
+        <model-viewer class='a' src="scene.gltf"
+          
+           camera-controls
+           camera-controls skybox-image="/Spacex/satara_night_no_lamps_1k.hdr" 
+          
+          stage-light-intensity="3" environment-intensity="2"
+          camera-orbit="0deg 90deg -80mm"
+          
+          
+                      alt="A 3D model of an astronaut">
+                      
+        </model-viewer>
+      </div>
+    </div>
+    <div class="product_desc">
+      <h1>SpaceX AR-v2</h1>
+      <span class="price">$10000</span>
+      <span class="sale_price">$6000</span>
+      <span class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></span>
+      <div class="product_options">
+        <div class="select">
+                 <select id="size">
+                   <option value = "1">Small</option>
+                   <option value = "2">Medium</option>
+                   <option value = "3">Large</option>
+                   <option value = "4">X-Large</option>
+                 </select>
+                 </div>
+          </div>
+          <div class="buying">
+                 <div class="quantity">
+                   <label for="quantity">QTY:</label>
+                   <input type="text">
+                 </div>
+                 <div class="cart">
+                   <a href="#" class="add">Add to Cart <i class="fa fa-shopping-cart fa-lg"></i></a>
+                 </div>
+          </div>
+          <div class="other_options">
+          <span class="SKU">SKU:12345</span>
+          <span class="QTY">QTY:35</span>
+          </div>
+          <div class="description">
+            <h4>an untethered mixed reality device with apps and solutions that enhance collaboration. Help your whole company be more productive and innovate with more purpose.</h4>
+            <p>Discover new ways to connect and create
+            </p>
+            <p>Back at the ATV, a holographic set of instructions hovers above it, telling me what to do and pointing to the exact spot where the bolt needs to go. After a couple of minutes, I’ve successfully fixed the thing — guided by holograms. I tap a holographic button on the guide to close out the instructions.</p>
+
+        </div>
+          =
+      </div>
+      <div class="tabular">
+        <ul class="tabs group">
+          <li><a href="#/one">More Info</a></li>
+          <li><a href="#/two">Reviews</a></li>
+         
+        </ul>
+          <div id="content">
+            <aside id="one">
+              <img src="/Spacex/5ecebfae5af6cc2ad1440cd4.jfif" alt="">
+            <img src="/Spacex/SpaceX-spacesuit-detail-081318-Pauline-Acalin-5c.jpg" alt="">
+            </aside>
+            <aside id="two">
+              <span class="author">Marty Mcfly</span><span class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></span>
+              <p>After today, I’m convinced this will never be a consumer device. Well… at least not while a guy name Satya Nadella is in charge at Microsoft. Nadella’s after big multi-million, multi-billion $$$ contracts. And those sort of $$$’s are only found in large industries and government contracts.
+
+                I don’t even see a place for this in the education sector, which is a crying shame. Should a teacher be able to take the class out to the playground a drop a life sized T-Rex in front of them it would be a truly life changing experience that would forever make Microsoft "cool" in their eyes. But Nadella’s not concerned with shaping young minds. He’s concerned with one thing and one thing only… the almighty dollar.</p>
+            </aside>
+            
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script  src="/book/script.js"></script>
+
+   <!-- Loads <model-viewer> for modern browsers: -->
+<script type="module"
+src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+</script>
+
+<!-- Loads <model-viewer> for old browsers like IE11: -->
+<script nomodule
+src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+</script>
+    
+<!-- 🚨 REQUIRED: Web Components polyfill to support Edge and Firefox < 63 -->
+<script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
+
+<!-- 💁 OPTIONAL: Intersection Observer polyfill for better performance in Safari and IE11 -->
+<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+
+<!-- 💁 OPTIONAL: Resize Observer polyfill improves resize behavior in non-Chrome browsers -->
+<script src="https://unpkg.com/resize-observer-polyfill@1.5.1/dist/ResizeObserver.js"></script>
+
+</body>
+</html>

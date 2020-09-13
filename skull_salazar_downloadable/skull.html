@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>product</title>
+  <link rel="stylesheet" href="/book/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<body>
+<div id="wrap">
+  <div id="product_layout_3">
+    <div class="product_image">
+      <div class="main_image">
+        <model-viewer class='a' src="scene.gltf"
+          
+           camera-controls
+          background-color="yellow"
+          
+          stage-light-intensity="3" environment-intensity="2"
+          camera-orbit="0deg 90deg 10m"
+          
+          
+                      alt="A 3D model of an astronaut">
+                      
+        </model-viewer>
+      </div>
+    </div>
+    <div class="product_desc">
+      <h1>Skull of Gold</h1>
+      <span class="price">$750</span>
+      <span class="sale_price">$500</span>
+      <span class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></span>
+      <div class="product_options">
+        <div class="select">
+                 <select id="size">
+                   <option value = "1">Small</option>
+                   <option value = "2">Medium</option>
+                   <option value = "3">Large</option>
+                   <option value = "4">X-Large</option>
+                 </select>
+                 </div>
+          </div>
+          <div class="buying">
+                 <div class="quantity">
+                   <label for="quantity">QTY:</label>
+                   <input type="text">
+                 </div>
+                 <div class="cart">
+                   <a href="#" class="add">Add to Cart <i class="fa fa-shopping-cart fa-lg"></i></a>
+                 </div>
+          </div>
+          <div class="other_options">
+          <span class="SKU">SKU:12345</span>
+          <span class="QTY">QTY:35</span>
+          </div>
+          <div class="description">
+           <h4>type of Bounty Skull in Sea of Thieves. This Skull is the reward for defeating Gold Hoarder, the Skeleton Lord, at the end of the 9th Tall Tale, "Shores of Gold (Quest)". Bounty Skulls are cursed remains of Skeleton Captains that hold memories and secrets of their past lives. These memories can be extracted by Order of Souls Madames on every Outpost. As these memories are valuable, they are willing to buy the Skulls for Gold and Reputation.</h4>
+            <p>According to the sound produced when it falls, the skull gem is lightweight and made of something of a shatterproof glass. It is a prolate spheroid shape, glowing with what seems to be a yellow liquid energy, magnified by its presumably glass-like shell, also resulting in a prominent caustic network effect. When collected, a brief yellow flash follows its disappearance from the ground.
+
+            </p>
+        </div>
+          
+      </div>
+      <div class="tabular">
+        <ul class="tabs group">
+          <li><a href="#/one">More Info</a></li>
+          <li><a href="#/two">Reviews</a></li>
+        </ul>
+          <div id="content">
+            <aside id="one">
+              <img src="/skull_salazar_downloadable/website-profile2117.jpg" alt="">
+              <img src="/skull_salazar_downloadable/website-profile21403.jpg" alt="">
+            </aside>
+            <aside id="two">
+              <span class="author">Marty Mcfly</span><span class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></span><p>"Excuse me. I'll call you tonight. Right. Yeah, I think maybe you do. Wait a minute, wait a minute, Doc, are you telling me that you built a time machine out of a delorean.</p>
+              
+             
+            </aside>
+            
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script  src="/book/script.js"></script>
+
+   <!-- Loads <model-viewer> for modern browsers: -->
+<script type="module"
+src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+</script>
+
+<!-- Loads <model-viewer> for old browsers like IE11: -->
+<script nomodule
+src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+</script>
+    
+<!-- 🚨 REQUIRED: Web Components polyfill to support Edge and Firefox < 63 -->
+<script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
+
+<!-- 💁 OPTIONAL: Intersection Observer polyfill for better performance in Safari and IE11 -->
+<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+
+<!-- 💁 OPTIONAL: Resize Observer polyfill improves resize behavior in non-Chrome browsers -->
+<script src="https://unpkg.com/resize-observer-polyfill@1.5.1/dist/ResizeObserver.js"></script>
+
+</body>
+</html>
